@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Book reading app</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='styles'>
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+      
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <a class="navbar-brand" href="">Comic vault</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Parents</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Educators</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Login</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-info">Get started</button>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">World's Largest Digital Library for Kids.</h1>
+          <p>30,000+ books sepcially curated for children under 13</p>
+          <button type="button" class="btn btn-lg btn-primary">Explore Now</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/img4.jpg" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Options 
+  <div class="container shadow min-vh-100 py-2">
+    <div class="container network_wrapper col-sm p-2 ">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Explore the world of books, Read-To-Me books, audiobooks and videos.</h3>
+                <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+                    <li class="nav-item">
+                        <a class="border nav-link active border-primary" aria-current="true" data-bs-toggle="tab" href="#dhcp">DHCP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="border border-info nav-link" data-bs-toggle="tab" href="#static">Static</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="card-body tab-content">
+                <div class="tab-pane active" id="dhcp">
+                    <p class="card-text">Change DHCP Network settings.</p>
+                </div>
+                <div class="tab-pane" id="static">
+                    <p class=" card-text">Change Static Network settings.</p>
+                </div>
+                <button class="btn btn-primary" type="submit">Save</button>
+            </form>
+        </div>
+    </div>
+  </div>
+-->
+  <!--Options-->
+  <div w3-include-html="options.html"></div>
+
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <img class="feature-image" src="images/Marvel-Comics.png" alt="iphone-mockup">
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="feature-image" src="images/National-Geographic-logo.png" alt="iphone-mockup">
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="feature-image" src="images/scholastic.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">My kids range from super reader to struggling reader and they all enjoy reading books on Comic Vault!</h2>
+          <img class="testimonial-image" src="images/testi1.jpeg" alt="profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">We have a struggling reader who just isn't interested in reading. But he loves Comic Vault!. There are a ton of subjects snd books he can always find something that interests him.</h2>
+          <img class="testimonial-image" src="images/testi2.jpg" alt="profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/logo1.png" alt="tc-logo">
+    <img class="press-logo" src="images/logo2.png" alt="tnw-logo">
+    <img class="press-logo" src="images/logo4.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/logo6.svg" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing  --> 
+    <style>
+      body {
+          background: white;
+          padding: 30px 0;
+          align-self: center;
+      }
+
+      a {
+          text-decoration: none;
+      }
+
+      .pricingTable {
+          text-align: center;
+          background: #fff;
+          margin: 0 -15px;
+          box-shadow: 0 0 10px #ababab;
+          padding-bottom: 40px;
+          border-radius: 10px;
+          color: #cad0de;
+          transform: scale(1);
+          transition: all .5s ease 0s
+      }
+
+      .pricingTable:hover {
+          transform: scale(1.05);
+          z-index: 1
+      }
+
+      .pricingTable .pricingTable-header {
+          padding: 40px 0;
+          background: #f5f6f9;
+          border-radius: 10px 10px 50% 50%;
+          transition: all .5s ease 0s
+      }
+
+      .pricingTable:hover .pricingTable-header {
+          background: #ff9624
+      }
+
+      .pricingTable .pricingTable-header i {
+          font-size: 50px;
+          color: #858c9a;
+          margin-bottom: 10px;
+          transition: all .5s ease 0s
+      }
+
+      .pricingTable .price-value {
+          font-size: 35px;
+          color: #ff9624;
+          transition: all .5s ease 0s
+      }
+
+      .pricingTable .month {
+          display: block;
+          font-size: 20px;
+          color: black
+      }
+
+      .pricingTable:hover .month,
+      .pricingTable:hover .price-value,
+      .pricingTable:hover .pricingTable-header i {
+          color: #fff
+      }
+
+      .pricingTable .heading {
+          font-size: 24px;
+          color: #ff9624;
+          margin-bottom: 20px;
+          text-transform: uppercase
+      }
+
+      .pricingTable .pricing-content ul {
+          list-style: none;
+          padding: 0;
+          margin-bottom: 30px
+      }
+
+      .pricingTable .pricing-content ul li {
+          line-height: 30px;
+          color: #a7a8aa
+      }
+
+      .pricingTable .pricingTable-signup a {
+          display: inline-block;
+          font-size: 15px;
+          color: #fff;
+          padding: 10px 35px;
+          border-radius: 20px;
+          background: #ffa442;
+          text-transform: uppercase;
+          transition: all .3s ease 0s
+      }
+
+      .pricingTable .pricingTable-signup a:hover {
+          box-shadow: 0 0 10px #ffa442
+      }
+
+      .pricingTable.blue .heading,
+      .pricingTable.blue .price-value {
+          color: #4b64ff
+      }
+
+      .pricingTable.blue .pricingTable-signup a,
+      .pricingTable.blue:hover .pricingTable-header {
+          background: #4b64ff
+      }
+
+      .pricingTable.blue .pricingTable-signup a:hover {
+          box-shadow: 0 0 10px #4b64ff
+      }
+
+      .pricingTable.red .heading,
+      .pricingTable.red .price-value {
+          color: #ff4b4b
+      }
+
+      .pricingTable.red .pricingTable-signup a,
+      .pricingTable.red:hover .pricingTable-header {
+          background: #ff4b4b
+      }
+
+      .pricingTable.red .pricingTable-signup a:hover {
+          box-shadow: 0 0 10px #ff4b4b
+      }
+
+      .pricingTable.green .heading,
+      .pricingTable.green .price-value {
+          color: #40c952
+      }
+
+      .pricingTable.green .pricingTable-signup a,
+      .pricingTable.green:hover .pricingTable-header {
+          background: #40c952
+      }
+
+      .pricingTable.green .pricingTable-signup a:hover {
+          box-shadow: 0 0 10px #40c952
+      }
+
+      .pricingTable.blue:hover .price-value,
+      .pricingTable.green:hover .price-value,
+      .pricingTable.red:hover .price-value {
+          color: #fff
+      }
+
+      @media screen and (max-width:990px) {
+          .pricingTable {
+              margin: 0 0 20px
+          }
+      }
+    </style>
+  <script type='text/javascript' src=''></script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+  <script type='text/javascript'
+      src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+  <script type='text/javascript'></script>
+  <div class="demo white-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-3 col-sm-6">
+                  <div class="pricingTable">
+                      <div class="pricingTable-header">
+                          <i class="fa fa-adjust"></i>
+                          <div class="price-value"> Free <span class="month">Access to 1 book a day</span> </div>
+                      </div>
+                      <h3 class="heading">Basic</h3>
+                      <div class="pricing-content">
+                          <ul>
+                              <li>Limited Library</li>
+                          </ul>
+                      </div>
+                      <div class="pricingTable-signup">
+                          <a href="#">Start</a>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6">
+                  <div class="pricingTable green">
+                      <div class="pricingTable-header">
+                          <i class="fa fa-briefcase"></i>
+                          <div class="price-value"> $70.00 <span class="month">12 months</span> </div>
+                      </div>
+                      <h3 class="heading">Unlimited</h3>
+                      <div class="pricing-content">
+                          <ul>
+                              <li> 30k+ books, audiobooks & videos.</li>
+                              <li></li>
+                          </ul>
+                      </div>
+                      <div class="pricingTable-signup">
+                          <a href="#">Subscribe</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="pricingTable blue">
+                      <div class="pricingTable-header">
+                          <i class="fa fa-diamond"></i>
+                          <div class="price-value"> $9.09 <span class="month">1 month</span> </div>
+                      </div>
+                      <h3 class="heading">Unlimited</h3>
+                      <div class="pricing-content">
+                          <ul>
+                              <li>30k+ books, audiobooks & videos</li>
+                              <li></li>
+                          </ul>
+                      </div>
+                      <div class="pricingTable-signup">
+                          <a href="#">Subscribe</a>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+
+
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 TinDog</p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
